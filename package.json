@@ -1,0 +1,125 @@
+{
+  "author": {
+    "name": "Hutson Betts",
+    "email": "hbetts@factset.com",
+    "url": "https://github.com/hbetts"
+  },
+  "bin": {},
+  "bugs": "https://github.com/factset/renovate-config/issues",
+  "description": "Common Renovate configuration for FactSet's official standards and best practices.",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "files": [],
+  "homepage": "https://github.com/factset/renovate-config",
+  "keywords": [
+    "renovate",
+    "configuration"
+  ],
+  "license": "Apache-2.0",
+  "main": "",
+  "name": "@fds/renovate-config",
+  "renovate-config": {
+    "default": {
+      "automerge": false,
+      "automergeType": "branch",
+      "composer": {
+        "enabled": true
+      },
+      "docker": {
+        "digest": {
+          "automerge": true,
+          "groupName": "Docker Digests",
+          "group": {
+            "commitMessagePrefix": "chore(docker): update Docker images"
+          }
+        },
+        "pinDigests": true
+      },
+      "extends": [
+        "default:ignoreModulesAndTests",
+        "default:semanticPrefixFixDepsChoreOthers",
+        "group:monorepos",
+        "helpers:disableTypesNodeMajor",
+        "helpers:oddIsUnstablePackages"
+      ],
+      "lockFileMaintenance": {
+        "automerge": true,
+        "enabled": true
+      },
+      "node": {
+        "enabled": true,
+        "supportPolicy": "lts"
+      },
+      "pip_requirements": {
+        "enabled": true
+      },
+      "prCreation": "not-pending",
+      "prNotPendingHours": 1,
+      "rebaseStalePrs": true,
+      "unpublishSafe": true
+    },
+    "web": {
+      "extends": [
+        "@fds:default"
+      ],
+      "automerge": false,
+      "major": {
+        "automerge": false
+      },
+      "minor": {
+        "automerge": false
+      },
+      "patch": {
+        "automerge": false
+      },
+      "packageRules": [
+        {
+          "extends": [
+            "monorepo:angular1"
+          ],
+          "allowedVersions": "<=1.5",
+          "major": {
+            "automerge": false
+          },
+          "minor": {
+            "automerge": false
+          }
+        },
+        {
+          "packageNames": [
+            "typescript"
+          ],
+          "allowedVersions": "<=2",
+          "major": {
+            "automerge": false
+          },
+          "minor": {
+            "automerge": false
+          }
+        }
+      ]
+    },
+    "python": {
+      "extends": [
+        "@fds:default"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/factset/renovate-config.git"
+  },
+  "scripts": {
+    "dev": "docker run --rm --user node -v \"$(pwd)\":/app -w /app -it node:4 sh -c \"yarn install; yarn test; bash\"",
+    "test": "renovate-config-validator"
+  },
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@hbetts/conventional-changelog-config": "^1.0.0",
+    "npm-publish-git-tag": "^2.0.0",
+    "renovate": "^13.76.4",
+    "semantic-release-github": "^4.0.0"
+  }
+}

@@ -13,8 +13,8 @@
   "files": [],
   "homepage": "https://github.com/factset/renovate-config",
   "keywords": [
-    "renovate",
-    "configuration"
+    "renovate-config",
+    "renovate-preset"
   ],
   "license": "Apache-2.0",
   "main": "",

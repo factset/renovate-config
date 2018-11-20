@@ -2,7 +2,7 @@ version: 2
 
 node_8: &node_8
   docker:
-    - image: node:8@sha256:d97f5bf54e016ad55dd0475f8710b99be14884ab1afcae8875f8092341264b0c
+    - image: node:8@sha256:06c7033a274aab131b07e7b8da8d1f823ee752a6e1e2bd46c0b459921ab2c39a
 
 test_plan: &test_plan
   steps:

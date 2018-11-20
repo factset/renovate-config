@@ -48,7 +48,7 @@ jobs:
             - node_modules
             - ${HOME}/.cache/yarn
           key: v1-dependencies_deploy
-      - run: $(yarn bin)/npm-publish-git-tag
+      - run: $(yarn bin)/npm-publish-git-tag --access public
 
 workflows:
   version: 2

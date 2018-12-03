@@ -68,8 +68,8 @@ agentkeepalive@^3.4.1:
     humanize-ms "^1.2.1"
 
 ajv@^6.5.5:
-  version "6.5.5"
-  resolved "https://registry.npmjs.org/ajv/-/ajv-6.5.5.tgz#cf97cdade71c6399a92c6d6c4177381291b781a1"
+  version "6.6.1"
+  resolved "https://registry.npmjs.org/ajv/-/ajv-6.6.1.tgz#6360f5ed0d80f232cc2b294c362d5dc2e538dd61"
   dependencies:
     fast-deep-equal "^2.0.1"
     fast-json-stable-stringify "^2.0.0"
@@ -1536,8 +1536,8 @@ has-unicode@^2.0.0, has-unicode@~2.0.1:
   resolved "https://registry.npmjs.org/has-unicode/-/has-unicode-2.0.1.tgz#e0e6fe6a28cf51138855e086d1691e771de2a8b9"
 
 hash.js@^1.0.0:
-  version "1.1.5"
-  resolved "https://registry.npmjs.org/hash.js/-/hash.js-1.1.5.tgz#e38ab4b85dfb1e0c40fe9265c0e9b54854c23812"
+  version "1.1.7"
+  resolved "https://registry.npmjs.org/hash.js/-/hash.js-1.1.7.tgz#0babca538e8d4ee4a0f8988d68866537a003cf42"
   dependencies:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
@@ -1557,8 +1557,8 @@ http-cache-semantics@3.8.1, http-cache-semantics@^3.8.1:
   resolved "https://registry.npmjs.org/http-cache-semantics/-/http-cache-semantics-3.8.1.tgz#39b0e16add9b605bf0a9ef3d9daaf4843b4cacd2"
 
 http-cache-semantics@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/http-cache-semantics/-/http-cache-semantics-4.0.0.tgz#2d0069a73c36c80e3297bc3a0cadd669b78a69ce"
+  version "4.0.1"
+  resolved "https://registry.npmjs.org/http-cache-semantics/-/http-cache-semantics-4.0.1.tgz#6c2ef57e22090b177828708a52eaeae9d1d63e1b"
 
 http-proxy-agent@^2.1.0:
   version "2.1.0"
@@ -2009,8 +2009,8 @@ libnpx@^10.2.0:
     yargs "^11.0.0"
 
 linkify-it@^2.0.0:
-  version "2.0.3"
-  resolved "https://registry.npmjs.org/linkify-it/-/linkify-it-2.0.3.tgz#d94a4648f9b1c179d64fa97291268bdb6ce9434f"
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/linkify-it/-/linkify-it-2.1.0.tgz#c4caf38a6cd7ac2212ef3c7d2bde30a91561f9db"
   dependencies:
     uc.micro "^1.0.1"
 
@@ -2179,11 +2179,11 @@ lowercase-keys@^1.0.0, lowercase-keys@^1.0.1:
   resolved "https://registry.npmjs.org/lowercase-keys/-/lowercase-keys-1.0.1.tgz#6f9e30b47084d971a7c820ff15a6c5167b74c26f"
 
 lru-cache@^4.0.1, lru-cache@^4.1.1, lru-cache@^4.1.2, lru-cache@^4.1.3:
-  version "4.1.4"
-  resolved "https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.4.tgz#51cc46e8e6d9530771c857e24ccc720ecdbcc031"
+  version "4.1.5"
+  resolved "https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz#8bbe50ea85bed59bc9e33dcab8235ee9bcf443cd"
   dependencies:
     pseudomap "^1.0.2"
-    yallist "^3.0.2"
+    yallist "^2.1.2"
 
 luxon@1.8.0:
   version "1.8.0"
@@ -3109,9 +3109,9 @@ pkg-dir@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
-pnpm@2.19.2:
-  version "2.19.2"
-  resolved "https://registry.npmjs.org/pnpm/-/pnpm-2.19.2.tgz#80ac179df327bb0308659e1ace9edbdbcbb42fab"
+pnpm@2.19.3:
+  version "2.19.3"
+  resolved "https://registry.npmjs.org/pnpm/-/pnpm-2.19.3.tgz#0bad99de937b29523a983fc57aa2dfcbc806af68"
 
 precond@0.2:
   version "0.2.3"
@@ -3496,8 +3496,8 @@ remark@^9.0.0:
     unified "^6.0.0"
 
 renovate@^13.76.4:
-  version "13.136.2"
-  resolved "https://registry.npmjs.org/renovate/-/renovate-13.136.2.tgz#db3d36d9dad6f72946537b7ef8c6298c752bfc02"
+  version "13.136.7"
+  resolved "https://registry.npmjs.org/renovate/-/renovate-13.136.7.tgz#c3c0747af3b8e85c232afaccf131b0aee5fc09b0"
   dependencies:
     "@renovate/pep440" "0.4.0"
     "@sindresorhus/is" "0.13.0"
@@ -3544,7 +3544,7 @@ renovate@^13.76.4:
     p-all "1.0.0"
     parse-diff "0.5.1"
     parse-link-header "1.0.1"
-    pnpm "2.19.2"
+    pnpm "2.19.3"
     registry-auth-token "3.3.2"
     root-require "0.3.1"
     safe-regex "2.0.1"
@@ -4037,15 +4037,21 @@ string-width@^1.0.1:
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^4.0.0"
 
-string_decoder@^1.1.1, string_decoder@~1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz#9cf1611ba62685d7030ae9e4ba34149c3af03fc8"
+string_decoder@^1.1.1:
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/string_decoder/-/string_decoder-1.2.0.tgz#fe86e738b19544afe70469243b2a1ee9240eae8d"
   dependencies:
     safe-buffer "~5.1.0"
 
 string_decoder@~0.10.x:
   version "0.10.31"
-  resolved "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
+  resolved "http://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
+
+string_decoder@~1.1.1:
+  version "1.1.1"
+  resolved "http://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz#9cf1611ba62685d7030ae9e4ba34149c3af03fc8"
+  dependencies:
+    safe-buffer "~5.1.0"
 
 stringify-entities@^1.0.1:
   version "1.3.2"
@@ -4202,7 +4208,7 @@ tomlify-j0.4@3.0.0:
 
 tough-cookie@2.0.x:
   version "2.0.0"
-  resolved "https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.0.0.tgz#41ce08720b35cf90beb044dd2609fb19e928718f"
+  resolved "http://registry.npmjs.org/tough-cookie/-/tough-cookie-2.0.0.tgz#41ce08720b35cf90beb044dd2609fb19e928718f"
 
 tough-cookie@~2.4.3:
   version "2.4.3"
@@ -4602,6 +4608,10 @@ y18n@^3.2.1:
 y18n@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
+
+yallist@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
 
 yallist@^3.0.0, yallist@^3.0.2:
   version "3.0.3"

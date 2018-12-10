@@ -3673,8 +3673,8 @@ remark@^9.0.0:
     unified "^6.0.0"
 
 renovate@^13.76.4:
-  version "13.143.0"
-  resolved "https://registry.npmjs.org/renovate/-/renovate-13.143.0.tgz#e64e421e2f7da1f04081027a09ba89bb47ebd8e5"
+  version "13.143.1"
+  resolved "https://registry.npmjs.org/renovate/-/renovate-13.143.1.tgz#bbcb94a3aff213e8cc8e7d872a3cfc2c2166e2c5"
   dependencies:
     "@renovate/pep440" "0.4.0"
     "@sindresorhus/is" "0.13.0"

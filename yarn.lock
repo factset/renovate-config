@@ -3657,8 +3657,8 @@ remark@^9.0.0:
     unified "^6.0.0"
 
 renovate@^13.76.4:
-  version "13.169.0"
-  resolved "https://registry.npmjs.org/renovate/-/renovate-13.169.0.tgz#18848e91f93ceb3af5a68c79fa527e0f218a89a4"
+  version "13.170.0"
+  resolved "https://registry.npmjs.org/renovate/-/renovate-13.170.0.tgz#f9d627883e4fb99ed5b22c24fc5c3b3b5c098e3a"
   dependencies:
     "@renovate/pep440" "0.4.0"
     "@renovatebot/docker-registry-client" "3.3.0"

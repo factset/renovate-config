@@ -1,5 +1,7 @@
 # renovate-config
 
+[![CircleCI](https://circleci.com/gh/factset/renovate-config.svg?style=svg)](https://circleci.com/gh/factset/renovate-config)
+
 > Common Renovate configuration for FactSet's official standards and best practices.
 
 Common configuration for customizing the behavior of the [Renovate App](https://github.com/marketplace/renovate) for a project.

@@ -117,9 +117,6 @@
   "version": "1.0.0",
   "dependencies": {},
   "devDependencies": {
-    "@hbetts/conventional-changelog-config": "^1.0.0",
-    "npm-publish-git-tag": "^3.0.0",
-    "renovate": "^13.76.4",
-    "semantic-release-github": "^4.0.0"
+    "renovate": "^13.76.4"
   }
 }

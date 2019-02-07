@@ -21,7 +21,7 @@ jobs:
   node_8_test_plan:
     <<: [*test_plan]
     docker:
-      - image: node:8@sha256:4ac0767f9039857ce3a62ae8f17f46120601359281f572e2fef5b8418119bf1f
+      - image: node:8@sha256:bc06ee80c96a740deb50b353b1a8468249516b43819d8f217e39d12140f5ef8a
 
 workflows:
   version: 2

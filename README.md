@@ -1,3 +1,7 @@
+# Archived
+
+This repository is not being actively maintained, and has been archived.
+
 # renovate-config
 
 [![CircleCI](https://circleci.com/gh/factset/renovate-config.svg?style=svg)](https://circleci.com/gh/factset/renovate-config)
